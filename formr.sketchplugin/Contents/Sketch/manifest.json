@@ -32,9 +32,15 @@
     {
       "script" : "script.cocoascript",
       "handler" : "setCustom",
-      "shortcut" : "ctrl alt shift l",
       "name" : "Parse Layer Name",
       "identifier" : "setcustom"
+    },
+    {
+      "script" : "script.cocoascript",
+      "handler" : "setPortrait",
+      "shortcut" : "ctrl alt shift l",
+      "name" : "2:3",
+      "identifier" : "portrait"
     }
   ],
   "menu": {
@@ -44,6 +50,7 @@
       "half",
       "threequarters",
       "widescreen",
+      "portrait",
       "setcustom"
     ],
   },

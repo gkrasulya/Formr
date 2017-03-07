@@ -37,6 +37,9 @@ com.lessthanzero.extend({
   setWidescreen: function() {
     this.universal("widescreen");
   },
+  setPortrait: function() {
+      this.universal("portrait");
+  },
   setCustom: function() {
     this.universal("custom");
   },
@@ -74,6 +77,8 @@ com.lessthanzero.extend({
               coef = 0.75;
             } else if (mode == "widescreen") {
               coef = 0.5625;
+            } else if (mode == "portrait") {
+              coef = 1.5;
             }
             var normalizedWidth = Math.floor(width * coef)
             layer.absoluteRect().setHeight(normalizedWidth)
@@ -127,6 +132,11 @@ function setHalf(context) {
 function setThreeQuarters(context) {
   com.lessthanzero.init(context, true);
   com.lessthanzero.setThreeQuarters();
+}
+
+function setPortrait(context) {
+  com.lessthanzero.init(context, true);
+  com.lessthanzero.setPortrait();
 }
 
 function setWidescreen(context) {
