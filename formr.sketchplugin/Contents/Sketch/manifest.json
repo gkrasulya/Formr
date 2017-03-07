@@ -39,7 +39,7 @@
       "script" : "script.cocoascript",
       "handler" : "setPortrait",
       "shortcut" : "ctrl alt shift l",
-      "name" : "2:3",
+      "name" : "Portrait 2:3",
       "identifier" : "portrait"
     }
   ],
