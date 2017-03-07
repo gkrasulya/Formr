@@ -37,10 +37,10 @@
     },
     {
       "script" : "script.cocoascript",
-      "handler" : "setPortrait",
+      "handler" : "setPoster",
       "shortcut" : "ctrl alt shift l",
-      "name" : "Portrait 2:3",
-      "identifier" : "portrait"
+      "name" : "Poster 2:3",
+      "identifier" : "poster"
     }
   ],
   "menu": {
@@ -50,7 +50,7 @@
       "half",
       "threequarters",
       "widescreen",
-      "portrait",
+      "poster",
       "setcustom"
     ],
   },

@@ -37,8 +37,8 @@ com.lessthanzero.extend({
   setWidescreen: function() {
     this.universal("widescreen");
   },
-  setPortrait: function() {
-      this.universal("portrait");
+  setPoster: function() {
+      this.universal("poster");
   },
   setCustom: function() {
     this.universal("custom");
@@ -77,7 +77,7 @@ com.lessthanzero.extend({
               coef = 0.75;
             } else if (mode == "widescreen") {
               coef = 0.5625;
-            } else if (mode == "portrait") {
+            } else if (mode == "poster") {
               coef = 1.5;
             }
             var normalizedWidth = Math.floor(width * coef)
@@ -134,9 +134,9 @@ function setThreeQuarters(context) {
   com.lessthanzero.setThreeQuarters();
 }
 
-function setPortrait(context) {
+function setPoster(context) {
   com.lessthanzero.init(context, true);
-  com.lessthanzero.setPortrait();
+  com.lessthanzero.setPoster();
 }
 
 function setWidescreen(context) {
